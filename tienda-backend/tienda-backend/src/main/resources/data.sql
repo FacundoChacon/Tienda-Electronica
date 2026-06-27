@@ -4,7 +4,7 @@
 -- spring.sql.init.mode=always y spring.jpa.defer-datasource-initialization=true,
 -- necesarios para que Hibernate cree las tablas ANTES de que se inserten estos datos).
 --
--- Contraseña de los dos usuarios de prueba: "password123"
+-- Contrasena de los dos usuarios de prueba: "password123"
 -- (el hash de abajo corresponde a esa contrasena, generado con BCrypt).
 -- =====================================================================
 

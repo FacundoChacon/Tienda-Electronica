@@ -103,6 +103,23 @@ public class OrdenService {
         return aResponse(obtenerEntidadPorId(id));
     }
 
+    /**
+     * Igual que buscarPorId, pero ademas valida que quien pregunta sea
+     * el dueno de la orden o un ADMIN. Sin esta validacion, cualquier usuario
+     * logueado podria ver el pedido de otro simplemente cambiando el id en la URL
+     * (un caso clasico de "broken object level authorization").
+     */
+    @Transactional(readOnly = true)
+    public OrdenDTO.Response buscarPorIdYValidarPropietario(Long id, String emailAutenticado, boolean esAdmin) {
+        Orden orden = obtenerEntidadPorId(id);
+        boolean esPropietario = orden.getUsuario().getEmail().equalsIgnoreCase(emailAutenticado);
+
+        if (!esPropietario && !esAdmin) {
+            throw new ReglaDeNegocioException("No tenes permiso para ver esta orden");
+        }
+        return aResponse(orden);
+    }
+
     // Usado por el panel de administracion (ej: marcar como ENVIADA o ENTREGADA).
     @Transactional
     public OrdenDTO.Response cambiarEstado(Long id, Orden.Estado nuevoEstado) {
