@@ -1,7 +1,10 @@
 package com.facundochacon.ecommerce.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -13,7 +16,8 @@ import java.util.List;
  */
 @Entity
 @Table(name = "usuarios")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Usuario {
@@ -28,7 +32,7 @@ public class Usuario {
     @Column(nullable = false, unique = true, length = 150)
     private String email;
 
-    // ALMACENA EL HASH CODE DE LA CONTRASEÑA
+    // Se almacena el hash de la contrasena (BCrypt), nunca en texto plano.
     @Column(name = "password_hash", nullable = false)
     private String passwordHash;
 

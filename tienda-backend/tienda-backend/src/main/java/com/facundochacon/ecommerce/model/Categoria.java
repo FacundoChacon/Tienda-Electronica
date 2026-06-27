@@ -1,18 +1,22 @@
 package com.facundochacon.ecommerce.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
 /**
- * Categoria de productos (por ej: "Notebooks", "Celulares", "Audio").
+ * Categoria de productos (ej: "Notebooks", "Celulares", "Audio").
  * Separar la categoria en su propia tabla permite armar filtros
- * de busqueda en el catalogo de una forma consistente.
+ * de busqueda en el catalogo de forma consistente.
  */
 @Entity
 @Table(name = "categorias")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Categoria {
