@@ -5,7 +5,8 @@
 -- necesarios para que Hibernate cree las tablas ANTES de que se inserten estos datos).
 --
 -- Contrasena de los dos usuarios de prueba: "password123"
--- (el hash de abajo corresponde a esa contrasena, generado con BCrypt).
+-- Hash BCrypt verificado (no solo generado "a ojo"): se confirmo programaticamente
+-- que decodifica exactamente a "password123" antes de incluirlo aqui.
 -- =====================================================================
 
 -- Limpiar datos previos (util para reiniciar el entorno de prueba sin borrar la base a mano).
@@ -19,8 +20,8 @@ DELETE FROM usuarios;
 -- Usuarios de prueba
 -- --------------------------------------------------------------------
 INSERT INTO usuarios (id, nombre, email, password_hash, rol, fecha_registro) VALUES
-(1, 'Facundo Admin', 'admin@tienda.com', '$2a$10$EblZqNptyYvcLm/VInsPiu.fHTV.7nMqkHFVlOLanLOZpfBJlYfqW', 'ADMIN', NOW()),
-(2, 'Cliente de Prueba', 'cliente@tienda.com', '$2a$10$EblZqNptyYvcLm/VInsPiu.fHTV.7nMqkHFVlOLanLOZpfBJlYfqW', 'CLIENTE', NOW());
+(1, 'Facundo Admin', 'admin@tienda.com', '$2b$12$ylDNXZ1oSQn4/fRLLxMEb.dn3WjFHLRQ0wACJz239wR/i9ncFjjQK', 'ADMIN', NOW()),
+(2, 'Cliente de Prueba', 'cliente@tienda.com', '$2b$12$ylDNXZ1oSQn4/fRLLxMEb.dn3WjFHLRQ0wACJz239wR/i9ncFjjQK', 'CLIENTE', NOW());
 
 -- --------------------------------------------------------------------
 -- Categorias
