@@ -57,6 +57,7 @@ export function CarritoProvider({ children }) {
           nombre: producto.nombre,
           precio: producto.precio,
           imagenUrl: producto.imagenUrl,
+          categoriaNombre: producto.categoriaNombre,
           stockDisponible: producto.stock,
           cantidad: cantidadFinal,
         },

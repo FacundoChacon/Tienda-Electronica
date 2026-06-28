@@ -212,9 +212,12 @@ export function AdminProductos() {
               <input
                 value={form.imagenUrl}
                 onChange={(e) => setForm({ ...form, imagenUrl: e.target.value })}
-                placeholder="https://..."
+                placeholder="https://... (opcional)"
                 className="w-full rounded-md border border-muted/20 bg-canvas dark:bg-canvas-dark px-3 py-2 text-sm"
               />
+              <p className="mt-1 text-xs text-muted dark:text-muted-dark">
+                Si lo dejas vacio, se muestra un icono segun la categoria del producto.
+              </p>
             </div>
 
             <button type="submit" className="mt-2 rounded-md bg-accent px-4 py-2 font-medium text-white hover:bg-accent-hover">

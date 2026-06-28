@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useCarrito } from '../context/CarritoContext';
 import { useAuth } from '../context/AuthContext';
+import { ProductImage } from '../components/ProductImage';
 import { formatearPrecio } from '../utils/formato';
 
 export function Carrito() {
@@ -59,7 +60,7 @@ export function Carrito() {
               key={item.productoId}
               className="flex items-center gap-4 rounded-lg border border-muted/15 bg-surface dark:bg-surface-dark p-4"
             >
-              <img src={item.imagenUrl} alt={item.nombre} className="h-16 w-16 rounded-md object-cover" />
+              <ProductImage producto={item} className="h-16 w-16 rounded-md object-cover" tamanioIcono={28} />
 
               <div className="flex-1">
                 <p className="font-medium text-[#1A2332] dark:text-[#F5F6F7]">{item.nombre}</p>

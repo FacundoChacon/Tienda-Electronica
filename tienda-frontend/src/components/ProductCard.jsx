@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BadgeStock } from './BadgeStock';
+import { ProductImage } from './ProductImage';
 import { useCarrito } from '../context/CarritoContext';
 import { formatearPrecio } from '../utils/formato';
 
@@ -28,11 +29,9 @@ export function ProductCard({ producto, onAgregarAlCarrito }) {
     <div className="group flex flex-col overflow-hidden rounded-lg border border-muted/15 bg-surface dark:bg-surface-dark transition-shadow hover:shadow-lg">
       <Link to={`/productos/${producto.id}`} className="block">
         <div className="aspect-square overflow-hidden bg-canvas dark:bg-canvas-dark">
-          <img
-            src={producto.imagenUrl}
-            alt={producto.nombre}
+          <ProductImage
+            producto={producto}
             className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
-            loading="lazy"
           />
         </div>
       </Link>

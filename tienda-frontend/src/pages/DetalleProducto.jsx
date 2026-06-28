@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { productoService } from '../services/productoService';
 import { BadgeStock } from '../components/BadgeStock';
+import { ProductImage } from '../components/ProductImage';
 import { useCarrito } from '../context/CarritoContext';
 import { formatearPrecio } from '../utils/formato';
 
@@ -73,7 +74,7 @@ export function DetalleProducto() {
 
       <div className="grid gap-8 md:grid-cols-2">
         <div className="aspect-square overflow-hidden rounded-lg bg-surface dark:bg-surface-dark">
-          <img src={producto.imagenUrl} alt={producto.nombre} className="h-full w-full object-cover" />
+          <ProductImage producto={producto} className="h-full w-full object-cover" />
         </div>
 
         <div className="flex flex-col gap-4">
