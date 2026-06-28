@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf114b8f-7a64-4e7c-a018-d91d1785c280" name="Changes" comment="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/MetricasDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/ProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/com/facundochacon/ecommerce/EcommerceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/EcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/EcommerceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/OrdenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/OrdenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/AuthDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/AuthDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/CategoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/CategoriaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/OrdenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/OrdenDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/ProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/UsuarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/UsuarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/RecursoNoEncontradoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/RecursoNoEncontradoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/ReglaDeNegocioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/ReglaDeNegocioException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/DetalleOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/DetalleOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Orden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/CategoriaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/DetalleOrdenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/DetalleOrdenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/OrdenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/OrdenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/UsuarioDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/UsuarioDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/CategoriaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/OrdenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/OrdenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/resources/data.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="45" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FacundoChacon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FacundoChacon/Tienda-Electronica.git&quot;,
+    &quot;accountId&quot;: &quot;792e10c8-fd88-4df8-934b-3bca3aaa08e2&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3Fhp01KTK74iWRy6mSYyD0LLQ4X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/Profesional/Proyectos Propios REPO/Proyecto Tienda E-Commerce/Tienda-Electronica/tienda-backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\Profesional\Proyectos Propios REPO\Proyecto Tienda E-Commerce\Tienda-Electronica\tienda-backend\tienda-backend\src\main\java\com\tienda\tienda_backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\Profesional\Proyectos Propios REPO\Proyecto Tienda E-Commerce\Tienda-Electronica\tienda-backend\ecomerce" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tienda-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tienda-backend" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf114b8f-7a64-4e7c-a018-d91d1785c280" name="Changes" comment="" />
+      <created>1782536930230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782536930230</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Se ha iniciado el backend con la API creada con SpringBoot añadiendo sus entidades y repositorios por el momento, sumado a las propiedades de configuracion para hibernate y la conexion a la base de datos">
+      <option name="closed" value="true" />
+      <created>1782538257446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782538257446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se han añadido los DTOs, Controllers y Services de Categoria, Orden, Producto y Usuario junto a excepciones globales y personalizadas para los errores 404 y 400">
+      <option name="closed" value="true" />
+      <created>1782540491710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782540491710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se han añadido los DTOs, Controllers y Services de Categoria, Orden, Producto y Usuario junto a excepciones globales y personalizadas para los errores 404 y 400">
+      <option name="closed" value="true" />
+      <created>1782540669575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782540669575</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se ha puesto a prueba hibernate con la creacion de bases de datos y se insertaron datos de prueba. Tambien se configuro aplication properties para que se creen las tablas antes que se inserten los datos de data.sql para que no haya problemas con de orden. Tambien cree un SecurityConfig temporal el cual voy a modificar luego para el JWT de login">
+      <option name="closed" value="true" />
+      <created>1782572372657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782572372657</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se ha añadido la capa de JWT con login, encriptador de contraseñas para no guardarlas como texto plano en la base de datos, indicaciones de qué rol puede usar ciertos endpoints y qué rol no, y sistema de expiacion de autenticacion">
+      <option name="closed" value="true" />
+      <created>1782573768727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782573768727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro">
+      <option name="closed" value="true" />
+      <created>1782662970413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782662970413</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Se ha iniciado el backend con la API creada con SpringBoot añadiendo sus entidades y repositorios por el momento, sumado a las propiedades de configuracion para hibernate y la conexion a la base de datos" />
+    <MESSAGE value="Se han añadido los DTOs, Controllers y Services de Categoria, Orden, Producto y Usuario junto a excepciones globales y personalizadas para los errores 404 y 400" />
+    <MESSAGE value="Se ha puesto a prueba hibernate con la creacion de bases de datos y se insertaron datos de prueba. Tambien se configuro aplication properties para que se creen las tablas antes que se inserten los datos de data.sql para que no haya problemas con de orden. Tambien cree un SecurityConfig temporal el cual voy a modificar luego para el JWT de login" />
+    <MESSAGE value="Se ha añadido la capa de JWT con login, encriptador de contraseñas para no guardarlas como texto plano en la base de datos, indicaciones de qué rol puede usar ciertos endpoints y qué rol no, y sistema de expiacion de autenticacion" />
+    <MESSAGE value="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro" />
+  </component>
+</project>

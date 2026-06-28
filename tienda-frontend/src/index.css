@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-canvas dark:bg-canvas-dark text-[#1A2332] dark:text-[#F5F6F7] font-body transition-colors duration-200;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  /* Los navegadores aplican su propio color por defecto a <a> (tipicamente
+     azul), que puede pisar la herencia del color del body. Reseteamos para
+     que los links hereden el color del texto que los rodea por defecto,
+     y solo cambien de color cuando explicitamente le pongamos una clase
+     de color (como text-accent en los hovers). */
+  a {
+    color: inherit;
+  }
+
+  /* Foco visible para accesibilidad de teclado, en linea con el skill de diseño */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
