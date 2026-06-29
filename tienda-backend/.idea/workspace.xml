@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf114b8f-7a64-4e7c-a018-d91d1785c280" name="Changes" comment="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/MetricasDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/PageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/ProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/com/facundochacon/ecommerce/EcommerceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/EcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/EcommerceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/CategoriaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/OrdenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/OrdenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/AuthDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/AuthDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/CategoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/CategoriaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/OrdenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/OrdenDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/ProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/dto/UsuarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/dto/UsuarioDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/RecursoNoEncontradoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/RecursoNoEncontradoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/exception/ReglaDeNegocioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/exception/ReglaDeNegocioException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/DetalleOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/DetalleOrden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Orden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/CategoriaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/DetalleOrdenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/DetalleOrdenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/OrdenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/OrdenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/ProductoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/security/UsuarioDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/security/UsuarioDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/CategoriaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/OrdenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/OrdenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/java/com/facundochacon/ecommerce/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/facundochacon/ecommerce/service/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienda-backend/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

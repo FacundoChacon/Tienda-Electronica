@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://tienda-electronica-wxfk.onrender.com/api';
 
 /**
  * Cliente HTTP centralizado. Todo el resto de los services (productos,
