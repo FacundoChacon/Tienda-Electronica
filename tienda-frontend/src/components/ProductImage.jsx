@@ -24,15 +24,13 @@ function getConfigCategoria(nombreCategoria) {
 
 /**
  * Muestra la imagen real del producto si existe y carga correctamente.
- * Si no hay imagenUrl, si la imagen falla al cargar (link roto, dominio
- * caido, etc), o si la URL es de placehold.co (los placeholders grises
- * genericos que se usaron como dato de prueba inicial), muestra en su
- * lugar un placeholder con el color e icono de la categoria.
+ * Si no hay imagenUrl, o si la imagen falla al cargar (link roto, dominio
+ * caido, etc), muestra en su lugar un placeholder con el color e icono de
+ * la categoria.
  */
 export function ProductImage({ producto, className = '', tamanioIcono = 56 }) {
   const [fallo, setFallo] = useState(false);
-  const esPlaceholderGenerico = producto.imagenUrl?.includes('placehold.co') ?? true;
-  const tieneImagenReal = Boolean(producto.imagenUrl) && !fallo && !esPlaceholderGenerico;
+  const tieneImagenReal = Boolean(producto.imagenUrl) && !fallo;
 
   if (tieneImagenReal) {
     return (
