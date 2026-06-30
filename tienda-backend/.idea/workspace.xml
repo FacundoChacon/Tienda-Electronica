@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf114b8f-7a64-4e7c-a018-d91d1785c280" name="Changes" comment="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro">
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bf114b8f-7a64-4e7c-a018-d91d1785c280" name="Changes" comment="Se ha solucionado un bug de autenticacion por comparacion de contraseñas incorrectas, se soluciono la insersion de datos de las contraseñas de usuarios para que se puedan realizar pruebas de inicio de sesion y registro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
